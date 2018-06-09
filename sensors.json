@@ -1,0 +1,105 @@
+{
+  "sensorDevices": [
+    {
+      "address": "F6:56:9D:78:F0:2E",
+      "owner": "Flo",
+      "description": "Maker Faire 2018 Floor Sensor large",
+      "location": "",
+      "cables": [
+        {
+          "name": "A",
+          "sensors": [
+            { "checkerboardID": "X1", "enabled": false },
+            { "checkerboardID": "X2", "enabled": false },
+            { "checkerboardID": "X3", "enabled": false },
+            { "checkerboardID": "X4", "enabled": false },
+            { "checkerboardID": "X5", "enabled": false }
+          ]
+        }, {
+          "name": "B",
+          "sensors": [
+            { "checkerboardID": "X6", "enabled": false },
+            { "checkerboardID": "X7" },
+            { "checkerboardID": "X8", "enabled": false },
+            { "checkerboardID": "X9", "enabled": false },
+            { "checkerboardID": "X10", "enabled": false }
+          ]
+        }, {
+          "name": "C",
+          "sensors": [
+            { "checkerboardID": "X11", "enabled": false },
+            { "checkerboardID": "X12", "enabled": false },
+            { "checkerboardID": "X13", "enabled": false },
+            { "checkerboardID": "X14", "enabled": false },
+            { "checkerboardID": "X15", "enabled": false }
+          ]
+        }
+      ]
+    }, {
+      "address": "C2:CE:B6:BC:D7:5B",
+      "description": "Maker Faire 2018 Floor Sensor small",
+      "enabled": false,
+      "cables": [
+        {
+          "name": "?",
+          "senors": []
+        }
+      ]
+    },
+    {
+      "address": "CC:A9:31:A9:CD:F6",
+      "description": "Baumhaus Sensor ?",
+      "enabled": false,
+      "cables": [
+        {
+          "name": "?",
+          "senors": []
+        }
+      ]
+    },
+    {
+      "address": "31:18:32:07:A7:4F",
+      "description": "Baumhaus Sensor ?",
+      "enabled": false,
+      "cables": [
+        {
+          "name": "?",
+          "senors": []
+        }
+      ]
+    },
+    {
+      "address": "D8:D1:F6:C6:94:5F",
+      "description": "Baumhaus Sensor ?",
+      "enabled": false,
+      "cables": [
+        {
+          "name": "?",
+          "senors": []
+        }
+      ]
+    },
+    {
+      "address": "6D:EF:89:E0:8A:DB",
+      "description": "Baumhaus Sensor ?",
+      "enabled": false,
+      "cables": [
+        {
+          "name": "?",
+          "senors": []
+        }
+      ]
+    },
+    {
+      "address": "25:6B:08:A6:2E:C7",
+      "description": "Baumhaus Sensor ?",
+      "enabled": false,
+      "cables": [
+        {
+          "name": "?",
+          "senors": []
+        }
+      ]
+    }
+  ]
+}
