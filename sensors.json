@@ -1,10 +1,9 @@
 {
-  "sensorDevices": [
+  "floorSensorBeacons": [
     {
       "address": "F6:56:9D:78:F0:2E",
+      "name": "Maker Faire 2018 Floor Sensor Large",
       "owner": "Flo",
-      "description": "Maker Faire 2018 Floor Sensor large",
-      "location": "",
       "cables": [
         {
           "name": "A",
@@ -38,68 +37,67 @@
     },
     {
       "address": "C2:CE:B6:BC:D7:5B",
+      "name": "Maker Faire 2018 Floor Sensor Small",
       "owner": "Matthias",
-      "location": "?",
-      "description": "Maker Faire 2018 Floor Sensor Small",
       "enabled": false,
       "cables": []
     },
     {
       "address": "CC:A9:31:A9:CD:F6",
       "owner": "Baumhaus",
-      "location": "Column North",
+      "name": "Column North",
       "enabled": false,
       "cables": [
         { "name": "B", "sensors": [
-          { "checkerboardID": "F5" },
-          { "checkerboardID": "E4" },
-          { "checkerboardID": "D3" },
-          { "checkerboardID": "B3" }
+          { "checkerboardID": "D3", "name": "31", "pin": 2 },
+          { "checkerboardID": "E4", "name": "42", "pin": 4 },
+          { "checkerboardID": "B3", "name": "34", "pin": 8 },
+          { "checkerboardID": "F5", "name": "40", "pin": 10 }
         ] },
         { "name": "C", "sensors": [
-          { "checkerboardID": "G6" },
-          { "checkerboardID": "E6" },
-          { "checkerboardID": "D5" },
-          { "checkerboardID": "C4" },
-          { "checkerboardID": "A4" }
+          { "checkerboardID": "A4", "name": "41", "pin": 2 },
+          { "checkerboardID": "G6", "name": "37", "pin": 4 },
+          { "checkerboardID": "E6", "name": "38", "pin": 6 },
+          { "checkerboardID": "D5", "name": "49", "pin": 8 },
+          { "checkerboardID": "C4", "name": "45", "pin": 10 }
         ] },
         { "enabled": false }
       ]
     },
     {
       "address": "31:18:32:07:A7:4F",
+      "name": "Column North-East",
       "owner": "Baumhaus",
-      "location": "Column North-East",
       "enabled": false,
       "cables": [
         { "name": "A", "sensors": [
-          { "checkerboardID": "H5" },
-          { "checkerboardID": "G4" },
-          { "checkerboardID": "F3" },
-          { "checkerboardID": "G2" },
-          { "checkerboardID": "I2" }
+          { "checkerboardID": "I2", "name": "26", "pin": 2 },
+          { "checkerboardID": "G4", "name": "32", "pin": 4 },
+          { "checkerboardID": "F3", "name": "33", "pin": 6 },
+          { "checkerboardID": "G2", "name": "39", "pin": 8 },
+          { "checkerboardID": "H5", "name": "50", "pin": 10 }
         ] },
         { "name": "K", "sensors": [
-          { "checkerboardID": "H3" },
-          { "checkerboardID": "J3" },
-          { "checkerboardID": "L3" },
-          { "checkerboardID": "N3" }
+          { "checkerboardID": "J3", "name": "23", "pin": 4 },
+          { "checkerboardID": "L3", "name": "13", "pin": 6 },
+          { "checkerboardID": "N3", "name": "18", "pin": 8 },
+          { "checkerboardID": "H3", "name": "30", "pin": 10 }
         ] },
         { "enabled": false }
       ]
     },
     {
       "address": "D8:D1:F6:C6:94:5F",
+      "name": "Column North-West",
       "owner": "Baumhaus",
-      "location": "Column North-West",
       "enabled": false,
       "cables": [
         { "name": "D", "sensors": [
-          { "checkerboardID": "G8" },
-          { "checkerboardID": "F7" },
-          { "checkerboardID": "D7" },
-          { "checkerboardID": "C6" },
-          { "checkerboardID": "B5" }
+          { "checkerboardID": "D7", "name": "36", "pin": 2 },
+          { "checkerboardID": "C6", "name": "47", "pin": 4 },
+          { "checkerboardID": "B5", "name": "43", "pin": 6 },
+          { "checkerboardID": "F7", "name": "44", "pin": 8 },
+          { "checkerboardID": "G8", "name": "35", "pin": 10 }
 
         ] },
         { "enabled": false },
@@ -108,53 +106,68 @@
     },
     {
       "address": "6D:EF:89:E0:8A:DB",
+      "name": "Column South-East",
       "owner": "Baumhaus",
-      "location": "Column South-East",
       "enabled": false,
       "cables": [
         { "name": "I", "sensors": [
-          { "checkerboardID": "I4" },
-          { "checkerboardID": "K4" },
-          { "checkerboardID": "M4" },
-          { "checkerboardID": "O4" },
-          { "checkerboardID": "Q4" }
+          { "checkerboardID": "I4", "name": "25", "pin": 6 },
+          { "checkerboardID": "K4", "name": "29", "pin": 8 },
+          { "checkerboardID": "M4", "name": "14", "pin": 2 },
+          { "checkerboardID": "O4", "name": "10", "pin": 4 },
+          { "checkerboardID": "Q4", "name": "7", "pin": 10 }
         ] },
         { "name": "H", "sensors": [
-          { "checkerboardID": "J5" },
-          { "checkerboardID": "L5" },
-          { "checkerboardID": "N5" },
-          { "checkerboardID": "P5" },
-          { "checkerboardID": "Q6" }
+          { "checkerboardID": "Q6", "name": "1", "pin": 2 },
+          { "checkerboardID": "J5", "name": "27", "pin": 4 },
+          { "checkerboardID": "L5", "name": "16", "pin": 6 },
+          { "checkerboardID": "P5", "name": "5", "pin": 8 },
+          { "checkerboardID": "N5", "name": "8", "pin": 10 }
         ] },
         { "name": "G", "sensors": [
-          { "checkerboardID": "K6" },
-          { "checkerboardID": "M6" },
-          { "checkerboardID": "O6" },
-          { "checkerboardID": "P7" },
-          { "checkerboardID": "Q8" }
+          { "checkerboardID": "K6", "name": "15", "pin": 2 },
+          { "checkerboardID": "Q8", "name": "2", "pin": 4 },
+          { "checkerboardID": "O6", "name": "6", "pin": 6 },
+          { "checkerboardID": "M6", "name": "19", "pin": 8 },
+          { "checkerboardID": "P7", "name": "3", "pin": 10 }
         ], "enabled": false }
       ]
     },
     {
       "address": "25:6B:08:A6:2E:C7",
+      "name": "Column South-West",
       "owner": "Baumhaus",
-      "location": "Column South-West",
       "enabled": false,
       "cables": [
         { "name": "E", "sensors": [
-          { "checkerboardID": "I8" },
-          { "checkerboardID": "K8" },
-          { "checkerboardID": "M8" },
-          { "checkerboardID": "N9" },
-          { "checkerboardID": "O10" }
+          { "checkerboardID": "O10", "name": "9", "pin": 2 },
+          { "checkerboardID": "N9", "name": "12", "pin": 4 },
+          { "checkerboardID": "I8", "name": "28", "pin": 6 },
+          { "checkerboardID": "K8", "name": "24", "pin": 8 },
+          { "checkerboardID": "M8", "name": "20", "pin": 10 }
         ] },
         { "name": "F", "sensors": [
-          { "checkerboardID": "J7" },
-          { "checkerboardID": "L7" },
-          { "checkerboardID": "N7" },
-          { "checkerboardID": "O8" },
-          { "checkerboardID": "P9" }
+          { "checkerboardID": "N7", "name": "11", "pin": 2 },
+          { "checkerboardID": "L7", "name": "21", "pin": 4 },
+          { "checkerboardID": "P9", "name": "4", "pin": 6 },
+          { "checkerboardID": "O8", "name": "17", "pin": 8 },
+          { "checkerboardID": "J7", "name": "22", "pin": 10 }
         ] },
+        { "enabled": false }
+      ]
+    },
+    {
+      "address": "CC:A9:31:A9:CD:F6",
+      "name": "Sofa",
+      "owner": "Baumhaus",
+      "enabled": false,
+      "cables": [
+        { "name": "B", "sensors": [
+          { "checkerboardID": "S3", "name": "46", "pin": 2 },
+          { "checkerboardID": "R2", "name": "52", "pin": 4 },
+          { "checkerboardID": "S1", "name": "48", "pin": 6 }
+        ] },
+        { "enabled": false },
         { "enabled": false }
       ]
     }
