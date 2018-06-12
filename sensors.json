@@ -35,70 +35,68 @@
           ]
         }
       ]
-    }, {
+    },
+    {
       "address": "C2:CE:B6:BC:D7:5B",
-      "description": "Maker Faire 2018 Floor Sensor small",
+      "owner": "Matthias",
+      "location": "?",
+      "description": "Maker Faire 2018 Floor Sensor Small",
       "enabled": false,
-      "cables": [
-        {
-          "name": "?",
-          "senors": []
-        }
-      ]
+      "cables": []
     },
     {
       "address": "CC:A9:31:A9:CD:F6",
-      "description": "Baumhaus Sensor ?",
+      "owner": "Baumhaus",
+      "location": "Column North",
       "enabled": false,
       "cables": [
-        {
-          "name": "?",
-          "senors": []
-        }
+        { "name": "B", "sensors": [] },
+        { "name": "C", "sensors": [] },
+        { "enabled": false }
       ]
     },
     {
       "address": "31:18:32:07:A7:4F",
-      "description": "Baumhaus Sensor ?",
+      "owner": "Baumhaus",
+      "location": "Column North-East",
       "enabled": false,
       "cables": [
-        {
-          "name": "?",
-          "senors": []
-        }
+        { "name": "A", "sensors": [] },
+        { "name": "K", "sensors": [] },
+        { "enabled": false }
       ]
     },
     {
       "address": "D8:D1:F6:C6:94:5F",
-      "description": "Baumhaus Sensor ?",
+      "owner": "Baumhaus",
+      "location": "Column North-West",
       "enabled": false,
       "cables": [
-        {
-          "name": "?",
-          "senors": []
-        }
+        { "name": "D", "sensors": [] },
+        { "enabled": false },
+        { "enabled": false }
       ]
     },
     {
       "address": "6D:EF:89:E0:8A:DB",
-      "description": "Baumhaus Sensor ?",
+      "owner": "Baumhaus",
+      "location": "Column South-East",
       "enabled": false,
       "cables": [
-        {
-          "name": "?",
-          "senors": []
-        }
+        { "name": "I", "sensors": [] },
+        { "name": "H", "sensors": [] },
+        { "name": "G", "sensors": [], "enabled": false }
       ]
     },
     {
       "address": "25:6B:08:A6:2E:C7",
-      "description": "Baumhaus Sensor ?",
+      "owner": "Baumhaus",
+      "location": "Column South-West",
       "enabled": false,
       "cables": [
-        {
-          "name": "?",
-          "senors": []
-        }
+        { "name": "E", "sensors": [] },
+        { "name": "F", "sensors": [] },
+        { "enabled": false }
       ]
     }
   ]
