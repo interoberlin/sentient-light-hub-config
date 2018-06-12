@@ -50,8 +50,19 @@
       "location": "Column North",
       "enabled": false,
       "cables": [
-        { "name": "B", "sensors": [] },
-        { "name": "C", "sensors": [] },
+        { "name": "B", "sensors": [
+          { "checkerboardID": "F5" },
+          { "checkerboardID": "E4" },
+          { "checkerboardID": "D3" },
+          { "checkerboardID": "B3" }
+        ] },
+        { "name": "C", "sensors": [
+          { "checkerboardID": "G6" },
+          { "checkerboardID": "E6" },
+          { "checkerboardID": "D5" },
+          { "checkerboardID": "C4" },
+          { "checkerboardID": "A4" }
+        ] },
         { "enabled": false }
       ]
     },
@@ -61,8 +72,19 @@
       "location": "Column North-East",
       "enabled": false,
       "cables": [
-        { "name": "A", "sensors": [] },
-        { "name": "K", "sensors": [] },
+        { "name": "A", "sensors": [
+          { "checkerboardID": "H5" },
+          { "checkerboardID": "G4" },
+          { "checkerboardID": "F3" },
+          { "checkerboardID": "G2" },
+          { "checkerboardID": "I2" }
+        ] },
+        { "name": "K", "sensors": [
+          { "checkerboardID": "H3" },
+          { "checkerboardID": "J3" },
+          { "checkerboardID": "L3" },
+          { "checkerboardID": "N3" }
+        ] },
         { "enabled": false }
       ]
     },
@@ -72,7 +94,14 @@
       "location": "Column North-West",
       "enabled": false,
       "cables": [
-        { "name": "D", "sensors": [] },
+        { "name": "D", "sensors": [
+          { "checkerboardID": "G8" },
+          { "checkerboardID": "F7" },
+          { "checkerboardID": "D7" },
+          { "checkerboardID": "C6" },
+          { "checkerboardID": "B5" }
+
+        ] },
         { "enabled": false },
         { "enabled": false }
       ]
@@ -83,9 +112,27 @@
       "location": "Column South-East",
       "enabled": false,
       "cables": [
-        { "name": "I", "sensors": [] },
-        { "name": "H", "sensors": [] },
-        { "name": "G", "sensors": [], "enabled": false }
+        { "name": "I", "sensors": [
+          { "checkerboardID": "I4" },
+          { "checkerboardID": "K4" },
+          { "checkerboardID": "M4" },
+          { "checkerboardID": "O4" },
+          { "checkerboardID": "Q4" }
+        ] },
+        { "name": "H", "sensors": [
+          { "checkerboardID": "J5" },
+          { "checkerboardID": "L5" },
+          { "checkerboardID": "N5" },
+          { "checkerboardID": "P5" },
+          { "checkerboardID": "Q6" }
+        ] },
+        { "name": "G", "sensors": [
+          { "checkerboardID": "K6" },
+          { "checkerboardID": "M6" },
+          { "checkerboardID": "O6" },
+          { "checkerboardID": "P7" },
+          { "checkerboardID": "Q8" }
+        ], "enabled": false }
       ]
     },
     {
@@ -94,8 +141,20 @@
       "location": "Column South-West",
       "enabled": false,
       "cables": [
-        { "name": "E", "sensors": [] },
-        { "name": "F", "sensors": [] },
+        { "name": "E", "sensors": [
+          { "checkerboardID": "I8" },
+          { "checkerboardID": "K8" },
+          { "checkerboardID": "M8" },
+          { "checkerboardID": "N9" },
+          { "checkerboardID": "O10" }
+        ] },
+        { "name": "F", "sensors": [
+          { "checkerboardID": "J7" },
+          { "checkerboardID": "L7" },
+          { "checkerboardID": "N7" },
+          { "checkerboardID": "O8" },
+          { "checkerboardID": "P9" }
+        ] },
         { "enabled": false }
       ]
     }
