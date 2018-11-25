@@ -8,7 +8,7 @@
       "location": "",
       "strips": [
         {
-          "index": 2,
+          "index": -1,
           "location": "NORTH-LEFT",
           "leds": [
             {
@@ -26,7 +26,7 @@
       "location": "",
       "strips": [
         {
-          "index": 1,
+          "index": 0,
           "location": "TABLE",
           "leds": [
             { "index": 0 },
